@@ -8,7 +8,7 @@ import java.net.Socket;
 /**
  * bio服务端
  */
-public class BioService {
+public class BioServer {
 
     public static void main(String[] args) throws IOException {
         ServerSocket serverSocket = new ServerSocket(8888);
